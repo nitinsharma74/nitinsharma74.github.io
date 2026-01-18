@@ -8,7 +8,7 @@
   --border: rgba(255, 255, 255, 0.12);
   --shadow: rgba(0, 0, 0, 0.6);
   --caret: #f4f4f4;
-  --display: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --display: "Space Grotesk", "Helvetica Neue", arial, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, sfmono-regular, menlo, monaco, consolas,
     "Liberation Mono", "Courier New", monospace;
 }
@@ -80,7 +80,7 @@ a {
 }
 
 a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 .wrap {
@@ -236,7 +236,7 @@ a:hover {
 }
 
 .blog-article {
-  font-family: Arial, sans-serif;
+  font-family: arial, sans-serif;
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
@@ -248,7 +248,7 @@ a:hover {
 .blog-article h1,
 .blog-article h2,
 .blog-article h3 {
-  color: #ffffff;
+  color: #fff;
   margin-top: 1.2em;
 }
 
@@ -492,7 +492,7 @@ a:hover {
 }
 
 .out a:hover {
-  color: #ffffff;
+  color: #fff;
   border-bottom-color: var(--accent);
 }
 
@@ -625,7 +625,7 @@ a:hover {
 
 ::selection {
   background: var(--accent-soft);
-  color: #ffffff;
+  color: #fff;
 }
 
 @keyframes blink {
